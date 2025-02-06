@@ -1,0 +1,10 @@
+#app-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+}
+#card-para{
+    font-size: 1.5rem !important;
+}

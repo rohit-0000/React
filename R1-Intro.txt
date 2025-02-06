@@ -1,0 +1,32 @@
+React is a popular JavaScript library for building user interfaces, particularly single-page applications where you need a fast and interactive experience
+
+Advantages:
+	Component-Based Architecture: Break down your UI into reusable pieces (components), making your code modular and easy to manage.
+
+	Virtual DOM: React updates only what's necessary, leading to faster performance.
+
+	State Management: Keep track of dynamic data easily, allowing for interactive and responsive UIs.
+
+	Hooks: Use built-in tools for managing state and side effects in a clean and efficient way.
+	
+Creating new react app using vite :- npm create vite@latest
+
+Now run:
+  cd vite-project
+  npm install
+  npm run dev
+  
+work flow:-
+
+index.html  --> div (root) --> main.jsx (app render)--> app.jsx
+  |-> index.css                      |-> app.css       		|-> <p> hello world  </p>
+  
+JSX :- such type of html code where we can use javascript (shortcut :rafce)
+
+Component :it is a function which looks like html code to render
+
+Hooks :- it is the utility using which we can hook on to the feature provided by react
+	useState:- const [count,setCount]=useState(0);
+
+
+Rout command : npm i react-router-dom

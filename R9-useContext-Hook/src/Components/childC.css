@@ -1,0 +1,16 @@
+#C-container{
+    background-color: rgba(116, 115, 115, 0.904);
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin:10px;
+}
+
+#C-container h1{
+    font-size: 1.1rem;
+
+}

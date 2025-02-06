@@ -1,0 +1,26 @@
+#D-btn{
+    padding: 5px 10px;
+    background-color: green;
+    color:aliceblue;
+    border-radius: 5px;
+    border:none;
+    font-size: 1.4rem;
+}
+#D-btn:active{
+    transform:scale(0.9);
+}
+
+#D-container{
+    background-color: rgba(116, 115, 115, 0.904);;
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+#D-container h1{
+    font-size: 1.1rem;
+
+}

@@ -1,0 +1,15 @@
+#log-in{
+    background-color: green;
+    color:bisque;
+    font-size: 2rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px red;
+}
+#LogInContainer{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

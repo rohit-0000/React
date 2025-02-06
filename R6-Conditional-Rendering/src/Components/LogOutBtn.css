@@ -1,0 +1,15 @@
+#log-out{
+    background-color: red;
+    color:bisque;
+    font-size: 2rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 2px green;
+}
+#LogOutContainer{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

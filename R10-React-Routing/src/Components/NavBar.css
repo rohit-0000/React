@@ -1,0 +1,30 @@
+
+#nav-contanier{
+    position: absolute;
+    top:10px;
+    left: 0px;
+}
+#nav-item{
+    display: flex;
+    justify-content: space-around;
+
+    min-width: 100vw;
+    background-color: black;
+    padding: 10px 0px;
+}
+
+.nav{
+    text-decoration: none;
+    color:aliceblue;
+    font-size: 1.5rem;
+    
+}
+.isActive{
+    background-color: #242424;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color:aliceblue;
+    padding: 2px 20px 10px 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}

@@ -1,0 +1,17 @@
+.user{
+    width:30vh;
+    background-color: rgba(110, 94, 44, 0.356);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin:20px;
+    border-radius: 20px;
+    gap:20px;
+    flex-wrap: wrap;
+}
+#user-img{
+    width:70%;
+    border-radius: 50%;
+}

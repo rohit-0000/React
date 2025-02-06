@@ -1,0 +1,29 @@
+#App-Container{
+    /* background-color: bisque; */
+    width: 40vw;
+    height:40vw;
+
+    min-width: 400px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 10px;
+    position: relative;
+    padding-top: 50px;
+}
+#topic{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    align-items: center;
+    position: absolute;
+    top:5vw;
+    background-color: rgba(73, 73, 73, 0.703);
+    padding: 10px 20px;
+    border-radius: 15px;
+
+    text-shadow: 0px 1px 5px rgb(0, 0, 0);
+}

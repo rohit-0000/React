@@ -1,0 +1,100 @@
+#container{
+  display: flex;
+  flex-wrap: wrap;
+  gap:20px;
+  justify-content: center;
+}
+#click,#change,#mouseOver,#submit,#Notes{
+  background-color: rgb(96, 102, 102);
+  border-radius: 20px;
+  padding: 20px 30px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:20px;
+  max-width: 400px;
+  box-sizing: border-box;
+}
+#click,#change,#mouseOver,#submit,#Notes h1{
+  color: black;
+}
+#topic-name{
+  text-align: center;
+  margin-bottom:50px;
+  font-size: 3rem;
+  text-shadow: 0px 0px 10px rgb(72, 0, 255);
+  top:10vw;
+}
+#click button{
+  font-size: 1.5rem;
+  border-radius: 20px;
+  padding: 5px 15px;
+  background-color: green;
+  color: aliceblue;
+  font-weight: bold;
+  border: 1px dotted white;
+  margin-top: 10px;
+}
+#submit button{
+  font-size: 1.5rem;
+  /* border-radius: 10px; */
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 3px 10px;
+  background-color: green;
+  color: aliceblue;
+  font-weight: bold;
+  border: 1px dotted white;
+  height:2.5rem;
+}
+#submit_input{
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  height:2.5rem;
+  border: 1px dotted green;
+  padding-left:8px;
+  font-size: 1.1rem;
+  outline: none;
+}
+#submit-form{
+  display: flex;
+}
+#click button:active{
+  transform: scale(0.95);
+}
+
+#change input{
+  border-radius: 10px;
+  height:2.5rem;
+  border: 1px dotted green;
+  padding-left:8px;
+  font-size: 1.1rem;
+  outline: none;
+  width: 70%;
+}
+#change p{
+  font-size: 1.0rem;
+  color: aliceblue;
+}
+#change p i{
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-shadow: 0px 0px 8px rgb(255, 0, 0);
+}
+
+#mouseOver span{
+  color: white;
+  padding: 0px 20px;
+  text-align: center;
+  font-size: 1.2rem;
+  text-shadow: 0px 0px 10px red;
+}
+
+#Notes{
+  margin:100px;
+}
+#Notes ul{
+  color:white;
+  font-size: 1.5rem;
+}

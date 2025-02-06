@@ -1,0 +1,42 @@
+#card-container{
+    background-color: rgb(93, 89, 89);
+    padding:30px 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;    
+    box-shadow: 0px 0px 10px white;
+}
+
+#input-area{
+    display: flex;
+    min-width: 500px;
+    gap:10px;
+    font-size: 2rem;
+}
+#input-area input{
+    background-color:whitesmoke;
+    border: none;
+    width:75%;
+    border-radius:8px;
+    font-size: 1.3rem;
+    padding-left: 15px;
+}
+#input-area input:focus{
+    outline: none;
+}
+#cardNo{
+    color: black;
+    font-size: 3rem;
+}
+#Ref{
+    align-self: start;
+    font-size: 1.5rem;
+}
+#Ref i{
+        text-shadow: 0px 0px 10px rgb(255, 0, 0);
+        text-underline-offset: 5px;
+        text-decoration: underline;
+      
+}
