@@ -30,3 +30,33 @@ Hooks :- it is the utility using which we can hook on to the feature provided by
 
 
 Rout command : npm i react-router-dom
+
+React hook form command: npm i react-hook-form
+
+Redux: 
+	 Action: An event along with additional information.
+	 Slice: Contains the logic for a feature, decides the initial state, and includes reducer functions.
+	 Reducer: A function that contains the logic for a feature and is part of the slice.
+	 Store: Holds the data or state of the application.
+	 State: The data representing the application's current status.
+
+
+Eg:-  Button Click
+		  |
+		onClick
+		  |
+	handleFunction(handleClick)
+		  |
+	Dispatch Action(suppose increment)
+		  |
+		Store (ct=0)
+		  |
+	  Reducer (increment)
+		  |
+		Store (ct=1)
+		  |
+	   UI Update
+	   
+Redux Command:- npm install @reduxjs/toolkit
+				npm install react-redux
+

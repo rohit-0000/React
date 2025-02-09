@@ -1,0 +1,32 @@
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    min-height:100vh;
+    margin:50px 20px;
+
+}
+#fetch-button{
+    font-size: 2rem;
+    padding: 10px 20px;
+    background-color: green;
+    border: none;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    align-self: center;
+}
+#fetch-button:active{
+    transform: scale(0.91);
+}
+
+#lst{
+    background-color: rgba(0, 0, 0, 0.4);
+    min-width: 500px;
+    padding:20px 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    font-size: 1.1rem;
+}
