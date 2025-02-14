@@ -1,0 +1,14 @@
+*{
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #c6c4c4;
+  color: rgba(255, 255, 255, 0.87);
+  /* color-scheme: light dark; */
+}

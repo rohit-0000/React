@@ -1,0 +1,25 @@
+#container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2rem;
+  gap:20px;
+  background-color: rgba(85, 0, 255, 0.445);
+  padding: 40px;
+  border-radius: 20px;
+}
+#btn{
+  padding:5px 10px;
+  font-size: 1.5rem;
+}
+#color-change{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  gap: 10px;
+}
+#color-change button{
+  padding: 5px 10px;
+  font-size: 1.1rem
+}

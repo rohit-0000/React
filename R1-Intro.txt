@@ -60,3 +60,5 @@ Eg:-  Button Click
 Redux Command:- npm install @reduxjs/toolkit
 				npm install react-redux
 
+
+Toaster :- npm install react-hot-toast
