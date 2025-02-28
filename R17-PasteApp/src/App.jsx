@@ -24,7 +24,7 @@ const router=createBrowserRouter(
       </div>
     },
     {
-      path:"/pastes/:id",
+      path:"/pastes/:id", //route parameter use Params
       element:
       <div>
         <NavBar/>

@@ -1,4 +1,6 @@
-
+#view-box{
+    text-decoration: none;
+}
 #allPaste-container{
     margin-top: 100px;
     width: 80vw;
@@ -90,9 +92,11 @@
     width: 66%;
     height:40px;
     overflow: hidden;
+    color: white;
 }
 #paste-Content{
-    width: 78%;
+    color: white;
+    width: 75%;
     font-size: 1.1rem;
     margin-bottom: 10px;
     max-height:60px;

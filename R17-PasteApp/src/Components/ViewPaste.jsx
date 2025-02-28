@@ -12,7 +12,7 @@ const ViewPaste = () => {
   const allPastes = useSelector((state) => state.paste.pastes);
   const paste = allPastes.filter((p) => p._id === id)[0];
   function handleCopy(paste) {
-    navigator.clipboard.writeText(paste.Content);
+    navigator.clipboard.writeText(paste.content);
     toast.success("Copied to Clipboard");
   }
 
@@ -39,7 +39,7 @@ const ViewPaste = () => {
         </div>
         <textarea id='content-input'
           disabled
-          defaultValue={paste.Content}
+          defaultValue={paste.content}
         />
       </div>
     </div>

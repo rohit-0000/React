@@ -23,7 +23,7 @@ const Paste = () => {
   }
 
   function handleCopy(paste) {
-    navigator.clipboard.writeText(paste.Content)
+    navigator.clipboard.writeText(paste.content)
     toast.success("Copied to Clipboard");
   }
 
@@ -45,14 +45,19 @@ const Paste = () => {
         <div>
           {filteredData.map((paste) => {
             return (
-              <div id='pastes-box' key={paste?._id}>
+              <div
+                id='pastes-box'
+                key={paste?._id}
+              >
+                <NavLink id='view-box' to={`/pastes/${paste?._id}`} >
                 <div id='paste-title'>
                   {paste.title}
                 </div>
 
                 <div id='paste-Content'>
-                  {paste.Content}
+                  {paste.content}
                 </div>
+              </NavLink>
 
                 <div id='view-btn'>
                   <button className='btns'>
@@ -66,7 +71,7 @@ const Paste = () => {
 
                   {/* <button id='share' className='btns' > <img src={Share} /></button> */}
                 </div>
-                <div id='time'><img src={Date}/>{paste.createdAt}</div>
+                <div id='time'><img src={Date} />{paste.createdAt}</div>
               </div>
             )
           })}

@@ -18,7 +18,7 @@ const Home = () => {
         if (pasteId) {
             const paste = allPastes.find((p) => p._id === pasteId);
             setTitle(paste.title);
-            setValue(paste.Content);
+            setValue(paste.content);
         } else {
             setTitle('');
             setValue('');
@@ -30,8 +30,9 @@ const Home = () => {
         if (title != '' || value!='') {
             const paste = {
                 title: title,
-                Content: value,
+                content: value,
                 _id: pasteId || Date.now().toString(36),
+                
                 // createdAt: new Date().toISOString,
                 createdAt:new Date().toLocaleDateString('en-GB', { day: '2-digit', month: 'short', year: 'numeric' }).replace(/ /g, '-')
             }

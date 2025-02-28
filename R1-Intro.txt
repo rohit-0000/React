@@ -62,3 +62,5 @@ Redux Command:- npm install @reduxjs/toolkit
 
 
 Toaster :- npm install react-hot-toast
+
+API CALLING :- npm install axios
